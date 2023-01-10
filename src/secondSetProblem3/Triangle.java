@@ -9,6 +9,11 @@ public class Triangle implements Shape {
 		return 0.5 * base * height;
 	}
 
+	  public Triangle(double base, double height) {
+	        this.base = base;
+	        this.height = height;
+	    }
+	  
 	@Override
 	public void display() {
 		System.out.println("Triangle with base " + base + " and height " + height);
